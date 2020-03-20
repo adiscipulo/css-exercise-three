@@ -1,3 +1,7 @@
+*, *:before, *:after {
+  box-sizing: border-box; /* box-sizing to border-box (4) */
+}
+
 body {
   background-color: #333;
   font-family: sans-serif;
@@ -14,8 +18,43 @@ nav {
   padding: 10px 0 15px 15px;
   position: fixed;
   width: 420px;
+  background-color: #000000; /* Black navbar */
 }
 
 .restaurant-list {
-  padding-top: 50px;
+  padding-top: 45px;
+  width: 100%; /* restaurant-list width (6) */
 }
+/* lines below used to style the text (5) */
+h1 {
+  font-size: 1.7em;
+  font-weight: bold;
+  margin: 5px 0 5px 5px; /* top right bottom left; */
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 5px 0 5px 5px;
+}
+
+.location{
+  background-color: #dfdedf;
+  border-bottom: 1px solid #3b3a3b;
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+}
+
+.location:hover{
+  background-color: #b4b2b4; /* change bg color when hovered over (7) */
+}
+
+.arrow{
+  float: right;
+  margin: 15px 15px 0 0; /* top right bottom left; */
+}
+
+.content
+{
+  display: inline-block;
+}
+css-exercise-three
